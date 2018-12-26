@@ -10,6 +10,6 @@ Please refer the [office docs](https://material.angular.io) for more.
 ### a. install nvm on the osx
 NVM is the node version manager - it use simple bash scripts to simplify the node environment dependency and manage the multiple version of the node runtime.
 
-[NVM github] (https://github.com/creationix/nvm.git)
+(NVM github)[https://github.com/creationix/nvm.git]
 # First of all, Hello world
 
