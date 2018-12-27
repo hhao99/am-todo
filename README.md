@@ -10,8 +10,7 @@ Please refer the [office docs](https://material.angular.io) for more.
 ### a. install nvm on the osx
 NVM is the node version manager - it use simple bash scripts to simplify the node environment dependency and manage the multiple version of the node runtime.
 
-[NVM github] (https://github.com/creationix/nvm.git)
-=======
+
 (NVM github)[https://github.com/creationix/nvm.git]
 Download the install script using cURL and install it to current user environment.
 
@@ -58,6 +57,13 @@ $ npm install g @angular/cli
 
 
 # First of all, Hello world
+Fisrt of all, we start the angular new project to display the hello world message to the web page.
+
+## use angular-cli to create new project
+
+## default project structure
+
+## customized the main page message
 
 
 
