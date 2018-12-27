@@ -30,9 +30,7 @@ nvm ls-remote -- list nodejs official release version
 nvm install 10 or 10.4.2 or lts
 
 nvm use 10 -- activate the version 10 
-nvm alisa default 10 -- make version 10 as the default
+nvm alias default 10 -- make version 10 as the default
 
-
->>>>>>> d0ed2aa0d8e1ba5af35715d851026878f5b6d56c
 # First of all, Hello world
 
