@@ -31,6 +31,7 @@ $ nvm install 10 or 10.4.2 or lts
 $ nvm use 10 -- activate the version 10 
 $ nvm alias default 10 -- make version 10 as the default
 
+
 ### b. configure the npm mirror
 for the known reason, we need config the local mirror to accelerate the npm package download.
 
@@ -45,6 +46,16 @@ $ npm config set registry http://r.cnpmjs.org
 or
 $ npm config set registry http://registry.npm.taobao.org/
 $ npm install
+
+
+### install the angular-cli
+Angular-cli is the command line tools to help to create the angular project, maintain the package dependency, add the the scaffold to the project and configure the project to use webpack and typescript. The CLI also help us to add components, directives, services etc to existing project.
+Angular-CLI use the webpack to package the project source code, to enable the typescript transpile support, Karma for the unit testing and Protractor for an end to end testing. It's the right way to start the angular project.
+
+To install the Angular cLI, run the following command:
+$ npm install g @angular/cli
+
+
 
 # First of all, Hello world
 
