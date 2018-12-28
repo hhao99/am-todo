@@ -60,8 +60,16 @@ $ npm install g @angular/cli
 Fisrt of all, we start the angular new project to display the hello world message to the web page.
 
 ## use angular-cli to create new project
+To create a new angular project:
+$ng new am-todo
 
-## default project structure
+and the change directory to the project and start the project:
+ng serve -o
+
+it will open the default browser to display the main web page.
+
+## inspect the default project structure
+
 
 ## customized the main page message
 
