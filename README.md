@@ -3,7 +3,7 @@
 Anguar material is the grouding design for the modern web application and mobile app.
 With the google material design, we can build attractive UI and UX, consistent and functional web applications, follow the modern web design principles like browser portability, device independence and gracefull degradation.
 
-Please refer the [office docs](https://material.angular.io) for more.
+Please refer the [office docs]:(https://material.angular.io) for more.
 
 # initial the project
 ## 1. setup the environment
@@ -11,7 +11,7 @@ Please refer the [office docs](https://material.angular.io) for more.
 NVM is the node version manager - it use simple bash scripts to simplify the node environment dependency and manage the multiple version of the node runtime.
 
 
-(NVM github)[https://github.com/creationix/nvm.git]
+[NVM github]:(https://github.com/creationix/nvm.git)
 Download the install script using cURL and install it to current user environment.
 
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
@@ -60,8 +60,17 @@ $ npm install g @angular/cli
 Fisrt of all, we start the angular new project to display the hello world message to the web page.
 
 ## use angular-cli to create new project
+To create a new angular project: 
+$ ng new am-todo
+
+and the change directory to the project and start the project: ng serve -o
+
+it will open the default browser to display the main web page.
 
 ## default project structure
+Let's first inspect the created project file structure:
+
+![project-file-structure]("./images/project-structure.png")
 
 ## customized the main page message
 
