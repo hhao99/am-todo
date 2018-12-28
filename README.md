@@ -70,7 +70,7 @@ it will open the default browser to display the main web page.
 ## default project structure
 Let's first inspect the created project file structure:
 
-![project-file-structure]("/images/project-structure.png")
+![project-file-structure](/images/project-structure.png "project structure")
 
 ## customized the main page message
 
