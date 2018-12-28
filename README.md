@@ -71,8 +71,82 @@ it will open the default browser to display the main web page.
 Let's first inspect the created project file structure:
 
 ![project-file-structure](/images/project-structure.png "project structure")
+our code is resided in the src folder, the main entry of the code model is [main.ts](src/main.ts "main.ts"), this file bootstrap the angular app and start the main routine to serve the angular application.
+The main module of the angular application is in the app/ folder, app.module.ts is the main module to hold the angular main module code, we will explain the details in the following chapter.
 
+the main component is the app.component.ts, let's customerized it.
 ## customized the main page message
+
+open the [app.component.ts](src/app/app.component.ts )
+`import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.sass']
+})
+export class AppComponent {
+  title = 't3';
+}
+`
+Now we change the title from 't3' to 'Angular'.
+the code look like:
+`import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.sass']
+})
+export class AppComponent {
+  title = 'Angular';
+}
+`
+now you may switch to the browser windows, Angular automatic refreshed the page content:
+
+Welcome to Angular!
+
+Let's open the app.componment.html:
+`
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
+
+`
+let's customized it to like the following code:
+`
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+     Hello {{ title }}!
+  </h1>
+  
+</div>
+<router-outlet></router-outlet>
+
+`
+
+the page will automatic updated.
+
+
 
 
 
