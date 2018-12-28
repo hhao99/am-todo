@@ -107,7 +107,7 @@ now you may switch to the browser windows, Angular automatic refreshed the page 
 Welcome to Angular!
 
 Let's open the app.componment.html:
-`
+```
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
@@ -130,9 +130,9 @@ Let's open the app.componment.html:
 
 <router-outlet></router-outlet>
 
-`
+```
 let's customized it to like the following code:
-`
+```
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
@@ -142,7 +142,7 @@ let's customized it to like the following code:
 </div>
 <router-outlet></router-outlet>
 
-`
+```
 
 the page will automatic updated.
 
